@@ -1,0 +1,27 @@
+{
+  "name": "crud_rest_api_with_node-express-postgresql_and_docker",
+  "version": "1.0.0",
+  "description": "This repository contain  Rest API crud project using Node.js and express,PostgreSQL and docker.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dosite-dev/CRUD_Rest_API_with_Node-Express-PostgreSQL_and_docker.git"
+  },
+  "author": "Dosite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dosite-dev/CRUD_Rest_API_with_Node-Express-PostgreSQL_and_docker/issues"
+  },
+  "homepage": "https://github.com/dosite-dev/CRUD_Rest_API_with_Node-Express-PostgreSQL_and_docker#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "nodemon": "^3.1.10",
+    "pg": "^8.15.6"
+  }
+}
