@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This repository contain  Rest API crud project using Node.js and express,PostgreSQL and docker.",
   "main": "server.js",
+  "type":"module",
   "scripts": {
     "start": "nodemon src/server.js"
   },
